@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request, render_template
 import sqlite3
+import os
 
 app = Flask(__name__)
 
@@ -62,4 +63,5 @@ def delete_task(id):
 
 if __name__ == '__main__':
     init_db()
-    app.run(debug=True)
+    # Bind to 0.0.0.0 and use the PORT environment variable provided by Render
+    app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000)), debug=True)
