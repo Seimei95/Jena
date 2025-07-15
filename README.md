@@ -46,7 +46,7 @@ This project is built using the following technologies:
 
 ## 📂 Project Structure
 The project is organized into the following directories and files:
-```bash
+```
 todo-backend/
 ├── app.py                  # Flask backend code
 ├── requirements.txt        # List of Python dependencies
