@@ -84,7 +84,6 @@ todo-backend/
     ```
 4. **Run the App**
     ```bash
-    cd ..
     python app.py
     ```
 5. **Access the App**
