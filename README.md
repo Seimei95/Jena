@@ -70,8 +70,8 @@ todo-backend/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/todo-backend.git 
-   cd todo-backend
+   git clone [https://github.com/Seimei95/Jena.git] 
+   cd Jena
    ```
 2. **Set Up a Virtual Environment (Optional but recommended)**
     ```bash
